@@ -1,0 +1,33 @@
+\section{Future Work}
+Selective decoding presented in this paper illustrates the idea of achieving more efficient zoomable video playback by tracing the dependencies among macroblocks. There are many possible future work can be done based on this simple idea. 
+\subsection{Minimize Storage} 
+The offline computation of selective decoding prodcues dependency files. The dependency files are plain values stored in binary format. To facilitate memory mapped I/O, heavy padding is introduced to make the records aligned. The table below shows the storage overhead for the two test video sequences.
+\begin{table}
+\caption{Video Sizes and Dependency File Sizes}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Test Video Sequences & Video File Sizes & Dependency File Sizes \\
+\hline
+Video 1 & 69.0MB & 385.9MB \\
+\hline
+Video 2 & 88.3 MB & 88.4 MB \\
+\hline 
+\end{tabular}
+\end{table}
+One simple idea to reduce storage overhead is to find the limits for stored values and allocate exact number of bits for storing those values. A more complicated but worth exploring approach is to find a better storage scheme to avoid the heavy padding but still be able to access the file quickly in a random fashion. Furthermore, compression can be applied to dependency files. Variable length codes and prediction codes can be used to encode the values. This introduces new computation overhead because the values are compressed at offline computation and de-compressed at online computation. However, it is possible this approach can save a fair amount of space. 
+
+Finally, if we expand the work to encoder and use encoder to generate dependency files, the video file size can be reduced since the duplicated information on dependency files are not needed in video files any more. 
+
+\subsection{Optimize Dependency File Generation}
+Our work focuses on optimizing the online computation of selective decoding. The offline computation is carried out once and dependency files are saved. However, the ideal approach is to generate dependency files on the fly when the user is playing the video for the first time. We have worked on a prototype of this approach and it proves working. Because this process is not optimized, we exclude it from our evaluation. 
+
+In addition, as mentioned above, we can generate the dependency files when encoding the video to remove the dependency file generation overhead completely from decoder side. 
+
+\subsection{Encoder Assisted Selective Decoding}
+Besides the advantages described above, expanding selective decoding to encoder can bring other research opportunities. The encoding parameters can be adjusted to control the amount of dependenices among macroblocks. However, this could also affect the compression efficiency. Can we configure the encoding parameters to produce videos that achieve an optimal balance bewtween compression efficiency and dependency reduction? 
+
+\subsection{Selective Decoding in Network Streaming Context}
+Our work focuses on selective decoding in local playback context. However, it is possible to apply selective decoding in network streaming context. The server side could generate dependency files, compute the seletive masks based on ROI sent from client side, and reconstruct the video bitstream for the client side. Note that this differs from Khiem's \cite{Ngo:2011:AEZ:1943552.1943581} in the way that both encoder and decoder are controlled to work corporately. It is possible that this approach can achieve better bandwidth efficiency than Khiem's work because the decoder can skip the MBs accordingly to the selective masks while Khiem's work assumes a standard decoder.  
+
+

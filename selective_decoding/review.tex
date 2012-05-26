@@ -1,0 +1,10 @@
+\section{Related Work}
+H.264/MPEG4 Advanced Video Coding (AVC) standard includes an extension supporting Scalable Video Coding (SVC)\cite{Schwarz07overviewof}. SVC allows embedding of one or more subset bitstream into a high quality bitstream. It enables transmission and decoding of partial bit streams to provide video of lower resolution and/or lower frame rate. SVC requires changes to both encoder and decoder and is not widely adopted yet. 
+
+Supporting zoomable video through encoders has been explored by several research groups. Mavlankar etc. studied the optimal slice size for zoomable video in a network streaming context\cite{Mavlankar07optimalslice}. Feng etc. presented how to produce a video stream  with ROI cropping support by constraining the video compression process\cite{Feng:2011:SRC:2000486.2000491}. 
+
+To enhance video viewing experience on small display, zoomable video with both manual \cite{roi02} and automatic ROI tracking \cite{Fan03lookinginto} are studied. Their focus is to produce adaptive network video stream for mobile devices with different display sizes. 
+
+More works exist on zoomable video in network context, each with its own focus. Utilize zoomable video to save bandwidth by refining the encoding process is studie\cite{Ngo:2011:AEZ:1943552.1943581}; Zoomable video on peer-to-peer streaming is explored\cite{Mavlankar_peer-to-peermulticast}; ROI prediction for streaming zoomable video is examined\cite{roi_pred}; multiple ROIs support is investigated\cite{multiroi}. 
+
+In summary, extensive research has been done to enable zoomable video in network streaming context, with focus on video encoding process. To the best of our knowledge, no material has been found on enabling zoomable video from decoder in local playback context through the decoding process.  

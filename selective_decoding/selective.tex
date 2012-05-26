@@ -1,0 +1,55 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{llncs}
+%
+\usepackage{makeidx, graphicx, subfigure}  % allows for indexgeneration
+\usepackage{float,rotating,subfigure}
+%
+\begin{document}
+%
+\frontmatter          % for the preliminaries
+%
+\pagestyle{headings}  % switches on printing of running heads
+\addtocmark{Hamiltonian Mechanics} % additional mark in the TOC
+
+\mainmatter              % start of the contributions
+%
+\title{Zoomable Video Playback on Mobile Devices by Selective Decoding}
+%
+\titlerunning{Selective Decoding}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Wei Tsang Ooi \and Feipeng Liu}
+%
+\authorrunning{Wei Tsang Ooi \and Feipeng Liu} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Wei Tsang Ooi and Feipeng Liu}
+%
+\institute{Department of Computer Science,\\National University of Singapore,\\13 Computing Drive Singapore 117417,\\
+\email{\{ooiwt, liuf0005\}@comp.nus.edu.sg}}
+
+\maketitle              % typeset the title of the contribution
+
+\input{abstract}
+%
+\input{introduction}
+\input{review}
+\input{offline}
+\input{online}
+\input{verification}
+\input{implementation}
+\input{evaluation}
+\input{future}
+\input{conclusion}
+%
+% ---- Bibliography ----
+%
+\bibliographystyle{splncs}
+
+\bibliography{reference}
+\end{document}

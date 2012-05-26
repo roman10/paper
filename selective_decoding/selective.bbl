@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+
+\bibitem{webbusinessinsider}
+businessinsider.com:
+\newblock Here's what people are actually doing with their cellphones.
+\newblock
+  \url{http://articles.businessinsider.com/2010-07-07/tech/30063182\_1\_google%
+-android-phones-mobile-device-cellphone} (07 2010)
+
+\bibitem{Khiem:2011:TUU:2072298.2071917}
+Khiem, N.Q.M., Ravindra, G., Ooi, W.T.:
+\newblock Towards understanding user tolerance to network latency in zoomable
+  video streaming.
+\newblock In: Proceedings of the 19th ACM international conference on
+  Multimedia. MM '11, New York, NY, USA, ACM (2011)  977--980
+
+\bibitem{Schwarz07overviewof}
+Schwarz, H., Marpe, D., Wieg, T.:
+\newblock Overview of the scalable video coding extension of the h.264/avc
+  standard.
+\newblock In: IEEE Transactions on Circuits and Systems for Video Technology In
+  Circuits and Systems for Video Technology. (2007)  1103--1120
+
+\bibitem{Mavlankar07optimalslice}
+Mavlankar, A., Baccichet, P., Varodayan, D., Girod, B.:
+\newblock Optimal slice size for streaming regions of high resolution video
+  with virtual pan/tilt/zoom functionality.
+\newblock In: Proc. of 15th European Signal Processing Conference (EUSIPCO.
+  (2007)
+
+\bibitem{Feng:2011:SRC:2000486.2000491}
+Feng, W.C., Dang, T., Kassebaum, J., Bauman, T.:
+\newblock Supporting region-of-interest cropping through constrained
+  compression.
+\newblock ACM Trans. Multimedia Comput. Commun. Appl. \textbf{7}(3) (September
+  2011)  17:1--17:16
+
+\bibitem{roi02}
+Shimoga, K.B.:
+\newblock Region-of-interest based video image transcoding for heterogenous
+  client displays.
+\newblock In: Packet Video 2002. (2002)
+
+\bibitem{Fan03lookinginto}
+Fan, X., Xie, X., qin Zhou, H., ying Ma, W.:
+\newblock Looking into video frames on small displays.
+\newblock In: In Proc. of ACM Multimedia 2003, Press (2003)  247--250
+
+\bibitem{Ngo:2011:AEZ:1943552.1943581}
+Ngo, K.Q.M., Guntur, R., Ooi, W.T.:
+\newblock Adaptive encoding of zoomable video streams based on user access
+  pattern.
+\newblock In: Proceedings of the second annual ACM conference on Multimedia
+  systems. MMSys '11, New York, NY, USA, ACM (2011)  211--222
+
+\bibitem{Mavlankar_peer-to-peermulticast}
+Mavlankar, A., Noh, J., Baccichet, P., Girod, B.:
+\newblock Peer-to-peer multicast live video streaming with interactive virtual
+  pan/tilt/zoom functionality.
+\newblock In: in Proc. of IEEE International Conference on Image Processing
+  (ICIP
+
+\bibitem{roi_pred}
+Mavlankar, A., Varodayan, D., Girod, B.:
+\newblock Region-of-interest prediction for interactively streaming regions of
+  high resolution video.
+\newblock In: In Proc. International Packet Video Workshop. (2007)
+
+\bibitem{multiroi}
+Bae, T.M., Thang, T.C., Kim, D.Y., Ro, Y.M., Kang, J.W., Kim, J.G.:
+\newblock Multiple region-of-interest support in scalable video coding.
+\newblock ETRI Journal (2006)  239--242
+
+\bibitem{webandroid}
+Android:
+\newblock Android official website.
+\newblock \url{http://www.android.com/} (05 2012)
+
+\bibitem{webffmpeg}
+ffmpeg:
+\newblock Ffmpeg.
+\newblock \url{http://ffmpeg.org/index.html} (05 2012)
+
+\bibitem{weblibyuv}
+libyuv:
+\newblock libyuv.
+\newblock \url{http://code.google.com/p/libyuv/} (5 2012)
+
+\bibitem{webchromium}
+chromium:
+\newblock chromium.
+\newblock \url{http://code.google.com/p/chromium/issues/detail?id=71403} (5
+  2012)
+
+\bibitem{Zhang:2010:AOP:1878961.1878982}
+Zhang, L., Tiwana, B., Qian, Z., Wang, Z., Dick, R.P., Mao, Z.M., Yang, L.:
+\newblock Accurate online power estimation and automatic battery behavior based
+  power model generation for smartphones.
+\newblock In: Proceedings of the eighth IEEE/ACM/IFIP international conference
+  on Hardware/software codesign and system synthesis. CODES/ISSS '10, New York,
+  NY, USA, ACM (2010)  105--114
+
+\end{thebibliography}
