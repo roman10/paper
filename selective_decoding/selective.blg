@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: selective.aux
 The style file: splncs.bst
 Database file #1: reference.bib
-You've used 16 entries,
+You've used 15 entries,
             2087 wiz_defined-function locations,
-            582 strings with 7001 characters,
-and the built_in function-call counts, 4561 in all, are:
-= -- 467
-> -- 167
+            577 strings with 6787 characters,
+and the built_in function-call counts, 4425 in all, are:
+= -- 455
+> -- 163
 < -- 7
-+ -- 63
-- -- 47
-* -- 276
-:= -- 613
-add.period$ -- 23
-call.type$ -- 16
-change.case$ -- 16
++ -- 61
+- -- 46
+* -- 270
+:= -- 592
+add.period$ -- 22
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 234
-empty$ -- 478
-format.name$ -- 47
-if$ -- 1134
+cite$ -- 15
+duplicate$ -- 228
+empty$ -- 460
+format.name$ -- 46
+if$ -- 1102
 int.to.chr$ -- 0
-int.to.str$ -- 16
+int.to.str$ -- 15
 missing$ -- 11
-newline$ -- 83
-num.names$ -- 16
-pop$ -- 79
+newline$ -- 78
+num.names$ -- 15
+pop$ -- 74
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 166
+skip$ -- 162
 stack$ -- 0
 substring$ -- 243
-swap$ -- 101
+swap$ -- 100
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 37
-width$ -- 18
-write$ -- 179
+while$ -- 36
+width$ -- 17
+write$ -- 169

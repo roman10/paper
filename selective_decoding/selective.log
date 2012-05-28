@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.6)  26 MAY 2012 13:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.6)  28 MAY 2012 23:22
 entering extended mode
  %&-line parsing enabled.
 **selective.tex
@@ -227,15 +227,9 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 ]
 File: decoderb.eps Graphic file (type eps)
  <decoderb.eps> [2]) (./review.tex)
-(./offline.tex
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [3]
-File: 2.eps Graphic file (type eps)
-
-<2.eps> [4]
-File: mv.eps Graphic file (type eps)
- <mv.eps>
+(./offline.tex [3]
+File: pred.eps Graphic file (type eps)
+ <pred.eps>
 File: me1.eps Graphic file (type eps)
  <me1.eps>
 File: me2.eps Graphic file (type eps)
@@ -243,139 +237,59 @@ File: me2.eps Graphic file (type eps)
 File: me3.eps Graphic file (type eps)
  <me3.eps>
 File: me4.eps Graphic file (type eps)
- <me4.eps> [5]
-File: md1.eps Graphic file (type eps)
- <md1.eps>
-File: md2.eps Graphic file (type eps)
+ <me4.eps> [4]
+File: meo1.eps Graphic file (type eps)
 
-<md2.eps> [6]) (./online.tex [7]
+<meo1.eps>
+File: meo2.eps Graphic file (type eps)
+ <meo2.eps> [5]) (./online.tex [6]
 File: interc1.eps Graphic file (type eps)
  <interc1.eps>
 File: interc2.eps Graphic file (type eps)
  <interc2.eps>
-File: intrac1.eps Graphic file (type eps)
- <intrac1.eps>
+File: intrac3.eps Graphic file (type eps)
+
+<intrac3.eps>
 File: intrac2.eps Graphic file (type eps)
-
-<intrac2.eps> [8]
-File: bits1.eps Graphic file (type eps)
- <bits1.eps>
-File: bits2.eps Graphic file (type eps)
- <bits2.eps> [9]) (./verification.tex)
-(./implementation.tex
-File: player.eps Graphic file (type eps)
- <player.eps>) (./evaluation.tex [10]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmr/m/n/9 CPU Clock
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\OT1/cmr/m/n/9 Android
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--12
-[]\OT1/cmr/m/n/9 S-LCD,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\OT1/cmr/m/n/9 Samsung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\OT1/cmr/m/n/9 Dual Core
- []
-
+ <intrac2.eps> [7]) (./implementation.tex
+File: playernew.eps Graphic file (type eps)
+ <playernew.eps>)
+(./evaluation.tex [8]
 File: fr1b1.eps Graphic file (type eps)
-<fr1b1.eps>
-File: fr1b2.eps Graphic file (type eps)
- <fr1b2.eps> [11]
+ <fr1b1.eps>
+File: fr1b1.eps Graphic file (type eps)
+ <fr1b1.eps> [9]
 File: fr2b1.eps Graphic file (type eps)
  <fr2b1.eps>
 File: fr2b2.eps Graphic file (type eps)
- <fr2b2.eps> [12]
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\OT1/cmr/m/n/9 Decoding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\OT1/cmr/m/n/9 Phone A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\OT1/cmr/m/n/9 Phone A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]\OT1/cmr/m/n/9 Phone B
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-[]\OT1/cmr/m/n/9 Phone B
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[]\OT1/cmr/m/n/9 Selective
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]\OT1/cmr/m/n/9 Standard
- []
-
-[13]
+ <fr2b2.eps>
 File: ptb1.eps Graphic file (type eps)
- <ptb1.eps>
+
+<ptb1.eps>
 File: ptb2.eps Graphic file (type eps)
- <ptb2.eps>
-Underfull \vbox (badness 2376) has occurred while \output is active []
-
- [14]
+ <ptb2.eps> [10]
 File: pwb1.eps Graphic file (type eps)
-
-<pwb1.eps>
+ <pwb1.eps>
 File: pwb2.eps Graphic file (type eps)
- <pwb2.eps>) (./future.tex
-Overfull \hbox (6.09937pt too wide) in paragraph at lines 2--3
-\OT1/cmr/m/n/10 ef-fi-cient zoomable video play-back by trac-ing the de-pen-den
--cies among mac-roblocks.
- []
-
-[15] [16]) (./conclusion.tex
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no Ÿ in font cmr10!
-) (./selective.bbl [17]
-Overfull \hbox (6.49039pt too wide) in paragraph at lines 90--94
+ <pwb2.eps> [11]) (./conclusion.tex)
+(./selective.bbl [12]
+Overfull \hbox (6.49039pt too wide) in paragraph at lines 83--87
 []\OT1/cmr/m/n/9 chromium:  chromium.  http://code.google.com/p/chromium/issues
 /detail?id=71403
  []
 
-) [18] (./selective.aux)
+) [13] (./selective.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1380 strings out of 495062
- 16522 string characters out of 1182645
- 74225 words of memory out of 3000000
- 4520 multiletter control sequences out of 15000+50000
- 7624 words of font info for 28 fonts, out of 3000000 for 9000
+ 1353 strings out of 495062
+ 16256 string characters out of 1182645
+ 73225 words of memory out of 3000000
+ 4507 multiletter control sequences out of 15000+50000
+ 6355 words of font info for 24 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,11n,24p,772b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,7n,24p,979b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on selective.dvi (18 pages, 58048 bytes).
+Output written on selective.dvi (13 pages, 39876 bytes).
