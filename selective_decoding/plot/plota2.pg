@@ -1,0 +1,25 @@
+unset title
+#unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+#set title "Phone A Video Sequence 2\nSelective Decoding with ROI at center VS. Standard Decoding" 0,1  font ",15";
+set xlabel "ROI height/video height, ROI width/video width" font ",15";
+set ylabel "Frames/sec" font ",15";
+#set border 0
+#set xrange []
+set yrange [5:32]
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+set term postscript eps enhanced
+plot 'a2zoom.data' using 1:2 title "Selective Decoding" with linespoints lc rgb "red", 'a2naive.data' using 1:2 title "Standard Decoding" with linespoints lc rgb "blue"
+#
+set term push 
+#set term png size 800, 600
+set output "fr2a2.eps"
+replot
+set output
+set terminal pop
+

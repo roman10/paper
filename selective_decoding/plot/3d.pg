@@ -1,0 +1,30 @@
+unset title
+#unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+set title "Test 3D" 0,1
+set xlabel "X" -4,-2;
+set ylabel "Y" 0,-2;
+set zlabel "Z" 4,6;
+#set border 0
+set hidden3d offset 0
+set surface
+#set the view angle: one can adjust manually to get the proper value first
+#and then modify the value here
+set view 80,49 
+#set xrange []
+#set yrange []
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+splot '$0' using 1:2:3 title "data1" with linespoints, '$1' using 1:2:3 title "data2" with linespoints
+#
+set term push 
+set term png size 800, 600
+set output "$2"
+replot
+set output
+set terminal pop
+

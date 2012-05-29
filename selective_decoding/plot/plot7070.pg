@@ -1,0 +1,28 @@
+unset title
+#unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+set title "Video Sequence 2\nSelective Decoding with ROI = (70.00% width, 69.63% height) VS. Standard Decoding" 0,1
+set xlabel "ROI Starting Height" -4,-2;
+set ylabel "ROI Starting Width" 0,-2;
+set zlabel "Frames/sec" 4,6;
+#set border 0
+set hidden3d offset 0
+set surface
+set view 78,30
+#set xrange []
+#set yrange []
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+splot '$0' using 1:2:3 title "70.00% width, 69.63% height" with linespoints, '$1' using 1:2:3 title "naive" with linespoints
+#
+set term push 
+set term png size 800, 600
+set output "$2"
+replot
+set output
+set terminal pop
+

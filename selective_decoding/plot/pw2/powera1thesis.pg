@@ -1,0 +1,30 @@
+unset title
+unset key
+#unset xtics
+#unset ytics
+set format y "%.0f%%";
+#set format x "%.1t";set title "Phone B Video Sequence 2 -- Power Consumption\nSelective Decoding with ROI at center VS. Standard Decoding" 0,1
+set title "Phone A Video Sequence 1 -- Power Consumption\nSelective Decoding with ROI at center VS. Standard Decoding" 0,1 font ",15"
+set xlabel "ROI height/video height, ROI width/video width" font ",15";
+set ylabel "Power Consumption Percentage" font ",15";
+#set border 0
+#set xrange []
+set yrange [5:35]
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+set key top right
+#set key 2,3
+#plot '$0' using 1:2 title "CPU" with linespoints, '$0' using 1:3 title "Display" with linespoints, '$0' using 1:4 title "Total" with linespoints, '$1' using 1:2 title "naive CPU" with lines, '$1' using 1:3 title "naive Display" with lines, '$1' using 1:4 title "naive Total" with lines
+plot 'a1.data' using 1:2 title "Selective Decoding" with linespoints lc rgb "red", 'a1n.data' using 1:2 title "Standard Decoding" with lines lc rgb "blue"
+#plot '$0' using 1:3 title "Display" with linespoints, '$1' using 1:3 title "naive Display" with lines
+#plot '$0' using 1:4 title "Total" with linespoints, '$1' using 1:4 title "naive Total" with lines
+#
+set term push 
+set term png size 800, 600
+set output "a1p.png"
+#set output "pwa1.eps"
+replot
+set output
+set terminal pop
+

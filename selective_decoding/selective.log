@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.6)  28 MAY 2012 23:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.6)  29 MAY 2012 21:03
 entering extended mode
  %&-line parsing enabled.
 **selective.tex
@@ -257,8 +257,8 @@ File: playernew.eps Graphic file (type eps)
 (./evaluation.tex [8]
 File: fr1b1.eps Graphic file (type eps)
  <fr1b1.eps>
-File: fr1b1.eps Graphic file (type eps)
- <fr1b1.eps> [9]
+File: fr1b2.eps Graphic file (type eps)
+ <fr1b2.eps> [9]
 File: fr2b1.eps Graphic file (type eps)
  <fr2b1.eps>
 File: fr2b2.eps Graphic file (type eps)
@@ -284,10 +284,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1353 strings out of 495062
- 16256 string characters out of 1182645
+ 1355 strings out of 495062
+ 16274 string characters out of 1182645
  73225 words of memory out of 3000000
- 4507 multiletter control sequences out of 15000+50000
+ 4508 multiletter control sequences out of 15000+50000
  6355 words of font info for 24 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  29i,7n,24p,979b,298s stack positions out of 5000i,500n,10000p,200000b,50000s

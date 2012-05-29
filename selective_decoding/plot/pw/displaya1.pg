@@ -1,0 +1,29 @@
+unset title
+unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+set title "Phone A Video Sequence 1 -- Display Power Consumption\nSelective Decoding with ROI at center VS. Standard Decoding" 0,1
+set ylabel "Joule/frame";
+set xlabel "ROI height/video height, ROI width/video width";
+#set border 0
+#set xrange []
+set yrange [0:0.20]
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+set key top right
+#set key 2,3
+#plot '$0' using 1:2 title "CPU" with linespoints, '$0' using 1:3 title "Display" with linespoints, '$0' using 1:4 title "Total" with linespoints, '$1' using 1:2 title "naive CPU" with lines, '$1' using 1:3 title "naive Display" with lines, '$1' using 1:4 title "naive Total" with lines
+plot 'a1.data' using ($1):($3/3168) title "Selective Decoding" with linespoints, 'a1n.data' using ($1):($3/3168) title "Standard Decoding" with lines
+#plot '$0' using 1:3 title "Display" with linespoints, '$1' using 1:3 title "naive Display" with lines
+#plot '$0' using 1:4 title "Total" with linespoints, '$1' using 1:4 title "naive Total" with lines
+#
+set term push 
+set term png size 800, 600
+set output "a1_display.png"
+replot
+set output
+set terminal pop
+

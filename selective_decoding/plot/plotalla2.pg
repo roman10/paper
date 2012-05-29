@@ -1,0 +1,29 @@
+unset title
+#unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+#set title "Phone A Video Sequence 2\nSelective Decoding with ROI at different sizes\n VS. Standard Decoding" -10,1 font ",14"
+set xlabel "ROI Starting Height" -3,-2 font ",14";
+set ylabel "ROI Starting Width" 0,-2 font ",14";
+set zlabel "Frames/sec" 10,7 font ",14";
+#set border 0
+set hidden3d offset 0
+set surface
+set view 82,45
+#set xrange []
+#set yrange []
+set zrange [6:30]
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+set term postscript eps enhanced
+splot 'a25050.data' using 1:2:3 title "50.00% width, 50.37% height" with linespoints lc rgb "red", 'a27070.data' using 1:2:3 title "70.00% width, 69.63% height" with linespoints lc rgb "blue", 'a29090.data' using 1:2:3 title "90.00% width, 90.37% height" with linespoints lc rgb "green", 'an25050.data' using 1:2:3 title "naive" with linespoints lc rgb "black"
+#
+set term push 
+#set term png size 600, 800i
+set output "a2.eps"
+replot
+set output
+set terminal pop
+

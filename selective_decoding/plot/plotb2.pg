@@ -1,0 +1,27 @@
+unset title
+#unset key
+#unset xtics
+#unset ytics
+#set format y "%.1t";
+#set format x "%.1t";
+#set title "Phone B Video Sequence 2\nSelective Decoding with ROI at center VS. Standard Decoding" 0,1  font ",15";
+set xtics font ",25"
+set ytics font ",25"
+set xlabel "ROI height/video height, ROI width/video width" offset 0,-2 font ",25";
+set ylabel "Frames/sec" offset -2,0 font ",25";
+#set border 0
+#set xrange []
+set yrange [8:32]
+#set zrange []
+#set ticslevel 0
+#splot '45050.data' u 1:2:3 with lines
+set term postscript eps enhanced
+plot '2zoom.data' using 1:2 title "Selective Decoding" with linespoints lc rgb "red", '2naive.data' using 1:2 title "Standard Decoding" with linespoints lc rgb "blue"
+#
+set term push 
+#set term png size 800, 600
+set output "fr2b2.eps"
+replot
+set output
+set terminal pop
+
